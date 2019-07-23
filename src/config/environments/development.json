@@ -1,0 +1,39 @@
+{
+    "application": {
+        "isApi": true,
+        "buildPath": "./build/"
+    },
+    "cache": {
+        "type": "node-cache",
+        "settings": {
+            "deleteOnExpire": true,
+            "stdTTL": 20,
+            "checkperiod": 21,
+            "summaryExp": 300
+        }
+    },
+    "encryption": {
+        "key": "somekey",
+        "salt": 10
+    },
+    "database": {
+        "client": "mongo",
+        "settings": {
+            "host": "127.0.0.1",
+            "port": "27017",
+            "db": "dev_db",
+			"autoreconnect": true,
+			"reconnectTries": 3,
+			"reconnectInterval": 1000
+        },
+        "useMockData": true
+    },
+    "logger": {
+        "level": "debug"
+    },
+    "modules": {
+        "start": "\/modules\/start\/settings.json",
+        "keymaker": "\/modules\/keymaker\/settings.json"
+    }
+    
+}

@@ -1,0 +1,14 @@
+{
+    "useMockData": true,
+    "apikey": "someapikey",
+    "endpoints": {
+        "start": {
+            "uri": "http:\/\/base.rwiapi.io\/start",
+            "mocks": {
+                "success": "services\/servicename\/mock\/endpointname.success.mock.json",
+                "failure": "services\/servicename\/mock\/endpointname.fail.mock.json"
+            }   
+        }    
+    },
+    "routes": "routes\/start.router"
+}
