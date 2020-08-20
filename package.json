@@ -39,7 +39,7 @@
         "aes-js": "^3.1.2",
         "agentkeepalive": "^4.0.0",
         "axios": "^0.18.0",
-        "bcrypt": "^3.0.6",
+        "bcrypt": "^5.0.0",
         "bcrypt-nodejs": "^0.0.3",
         "body-parser": "1.18.2",
         "chalk": "^2.4.1",
